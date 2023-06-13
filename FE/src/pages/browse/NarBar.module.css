@@ -1,0 +1,31 @@
+.transparent {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+}
+.blackbackground {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+.thetwotags {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.btnsearch {
+  width: 1.6rem;
+  /* float: right;
+  margin-right: 1rem;
+  margin-top: 0.9rem; */
+}
+.movieapp {
+  /* float: left; */
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+  /* margin-left: 1rem;
+  margin-top: 0.5rem; */
+}

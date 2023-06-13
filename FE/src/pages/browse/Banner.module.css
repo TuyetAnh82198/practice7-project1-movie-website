@@ -1,0 +1,52 @@
+.movieimg {
+  width: 100%;
+  height: 36rem;
+  position: relative;
+  top: -4rem;
+  z-index: -5;
+}
+.movieinfo {
+  position: absolute;
+  top: 12rem;
+  left: 1.5rem;
+  z-index: -1;
+}
+.moviename {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 650;
+  margin-bottom: 2.5rem;
+}
+.btn1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: 550;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.2rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  margin-right: 1rem;
+}
+.btn2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: 550;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.2rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+.movieoverview {
+  margin-top: 0.5rem;
+  color: white;
+  font-weight: 500;
+  width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,19 @@
+.searchresult {
+  color: white;
+  margin-top: 1.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.imgs {
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.img {
+  padding: 0.5rem;
+}
+.resultlist {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}

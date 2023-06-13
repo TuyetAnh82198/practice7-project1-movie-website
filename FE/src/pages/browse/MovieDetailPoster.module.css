@@ -1,0 +1,50 @@
+.comstyle {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.leftdiv hr {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.leftdiv {
+  margin-left: 2.5rem;
+  width: 50%;
+}
+.datestyle {
+  font-size: 1.2rem;
+  margin-bottom: -1rem;
+  margin-top: 4rem;
+  font-weight: 600 !important;
+}
+.votestyle {
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+  margin-bottom: -4rem;
+}
+.overviewstyle {
+  width: 100%;
+  font-weight: 350 !important;
+  font-size: 1.1rem;
+  margin-top: 6rem;
+}
+.namestyle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.rightdiv {
+  width: 50%;
+}
+.rightdiv img {
+  width: 92% !important;
+  margin-right: 2rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+.rightdiv iframe {
+  width: 92%;
+  margin-right: 2rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}

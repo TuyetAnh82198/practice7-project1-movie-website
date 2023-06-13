@@ -1,0 +1,50 @@
+@keyframes imgeffect {
+  100% {
+    transform: scale(1.2);
+  }
+}
+.poster img {
+  width: 9%;
+  margin-right: 1rem;
+}
+
+.useanimation:hover {
+  animation-name: imgeffect;
+  animation-duration: 1s;
+}
+
+/* .poster:hover {
+  overflow: visible;
+} */
+
+/* .backdrop:hover {
+  overflow: visible;
+} */
+
+.poster {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: -1.5rem;
+  overflow-x: scroll;
+  display: flex;
+  padding: 1rem;
+}
+.backdrops img {
+  width: 15%;
+  margin-right: 0.8rem;
+}
+.backdrop {
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 1.5rem;
+  padding: 1rem;
+}
+.backdrops p {
+  color: white;
+  font-weight: 650;
+  margin-left: 0.5rem;
+  margin-top: 4.5rem;
+}
+.backdrops {
+  margin-bottom: 4.5rem;
+}
