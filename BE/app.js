@@ -19,11 +19,10 @@ app.use("/api/movies/discover", searchByGenre);
 app.use("/api/movies/search", search);
 app.use("/api/movies/video", getTrailer);
 
-app.use((req, res, next) => {
+app.use((req, res)=> {
   res.status(404).send({
     message: "Route not found",
   });
-  next();
 });
 
 app.listen(5000);
